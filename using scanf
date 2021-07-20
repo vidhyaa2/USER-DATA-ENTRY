@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int l;
+    int b;
+    printf("enter the lenght\n");
+    scanf("%d",&l);
+    printf("enter the breadth\n");
+    scanf("%d",&b);
+    printf("%d\n",(l*b));
+    printf("%d\n",(2*l+2*b));
+    return 0;
+}
